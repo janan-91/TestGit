@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Editions_TestSuite,Chrome 78.0.3904.70,,,2019-10-31 15:14:14,2019-10-31 15:15:01,47.039s,INCOMPLETE
+,,,,,,,
+Test Cases/EditionsDropdown/EOL_Global_Header_TC010,Chrome 78.0.3904.70,Editions functionality,,2019-10-31 15:14:14,2019-10-31 15:14:39,25.420s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-10-31 15:14:15,2019-10-31 15:14:19,3.422s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-10-31 15:14:19,2019-10-31 15:14:19,0.290s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-10-31 15:14:19,2019-10-31 15:14:35,16.161s,PASSED
+"click(findTestObject(""Page_Entertainmen/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-10-31 15:14:35,2019-10-31 15:14:36,0.725s,PASSED
+"click(findTestObject(""Page_Entertainmen/a_us""))",Chrome 78.0.3904.70,,,2019-10-31 15:14:36,2019-10-31 15:14:36,0.711s,PASSED
+"click(findTestObject(""Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_UK""))",Chrome 78.0.3904.70,,,2019-10-31 15:14:36,2019-10-31 15:14:37,0.421s,PASSED
+"click(findTestObject(""Object Repository/Editions_OR/Page_Entertainment News Celebrity News Celebrity Gossip  E News UK/a_uk""))",Chrome 78.0.3904.70,,,2019-10-31 15:14:37,2019-10-31 15:14:37,0.006s,NOT_RUN
+"click(findTestObject(""Object Repository/Editions_OR/Page_Entertainment News Celebrity News Celebrity Gossip  E News UK/a_Venezuela""))",Chrome 78.0.3904.70,,,2019-10-31 15:14:37,2019-10-31 15:14:37,0.004s,NOT_RUN
+closeBrowser(),Chrome 78.0.3904.70,,,2019-10-31 15:14:37,2019-10-31 15:14:37,0.393s,PASSED
+,,,,,,,
+Test Cases/EditionsDropdown/EOL_Global_Header_TC009,Chrome 78.0.3904.70,Editions dropdown functionality,,2019-10-31 15:14:39,2019-10-31 15:15:01,21.271s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-10-31 15:14:40,2019-10-31 15:14:41,1.804s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-10-31 15:14:41,2019-10-31 15:14:42,0.244s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-10-31 15:14:42,2019-10-31 15:14:58,15.958s,PASSED
+"click(findTestObject(""Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-10-31 15:14:58,2019-10-31 15:14:58,0.446s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_us""), 3)",Chrome 78.0.3904.70,,,2019-10-31 15:14:58,2019-10-31 15:14:58,0.218s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-10-31 15:14:58,2019-10-31 15:14:59,0.278s,PASSED

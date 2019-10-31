@@ -1,0 +1,28 @@
+1
+00:00:00,573 --> 00:00:00,585
+1. openBrowser("")
+
+2
+00:00:07,937 --> 00:00:07,942
+5. maximizeWindow()
+
+3
+00:00:08,211 --> 00:00:08,213
+9. navigateToUrl("https://www.eonline.com/us")
+
+4
+00:00:24,086 --> 00:00:24,088
+13. click(findTestObject("Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_No Thanks"))
+
+5
+00:00:24,686 --> 00:00:24,689
+17. click(findTestObject("Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/div_Work  Money7 Yoga"))
+
+6
+00:00:35,974 --> 00:00:35,981
+21. click(findTestObject("Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us"))
+
+7
+00:00:37,242 --> 00:00:37,244
+25. closeBrowser()
+

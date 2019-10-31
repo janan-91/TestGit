@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Footer_TestSuite,Chrome 78.0.3904.70,,,2019-10-31 15:16:54,2019-10-31 15:21:57,5m - 3.351s,INCOMPLETE
+,,,,,,,
+Test Cases/Footer/EOL_Global_Footer_TC011,Chrome 78.0.3904.70,"""Verify the E! News Logo is actionable and reloads the Front Door while 
+maintaining edition integrity""",,2019-10-31 15:16:54,2019-10-31 15:17:50,55.876s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-10-31 15:16:55,2019-10-31 15:16:59,3.449s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-10-31 15:16:59,2019-10-31 15:16:59,0.261s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-10-31 15:16:59,2019-10-31 15:17:14,15.105s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-10-31 15:17:14,2019-10-31 15:17:15,0.667s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/div_Work  Money7 Yoga""))",Chrome 78.0.3904.70,,,2019-10-31 15:17:15,2019-10-31 15:17:47,31.771s,FAILED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us""))",Chrome 78.0.3904.70,,,2019-10-31 15:17:47,2019-10-31 15:17:48,1.204s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-10-31 15:17:48,2019-10-31 15:17:48,0.334s,PASSED
+,,,,,,,
+Test Cases/Footer/EOL_Global_Footer_TC012,Chrome 78.0.3904.70,Footer Functionality. Verifying all links navigate to a new page in footer.,,2019-10-31 15:17:50,2019-10-31 15:21:57,4m - 6.874s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-10-31 15:17:51,2019-10-31 15:17:52,1.827s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-10-31 15:17:52,2019-10-31 15:17:53,0.239s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-10-31 15:17:53,2019-10-31 15:18:06,13.648s,PASSED
+"click(findTestObject(""Object Repository/FooterObjects/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:06,2019-10-31 15:18:07,0.549s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_About Us""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:07,2019-10-31 15:18:08,1.445s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_About Us""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:08,2019-10-31 15:18:09,1.092s,PASSED
+delay(5),Chrome 78.0.3904.70,,,2019-10-31 15:18:09,2019-10-31 15:18:14,5.032s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_FAQ""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:14,2019-10-31 15:18:20,5.304s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_FAQ""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:20,2019-10-31 15:18:25,5.310s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Careers""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:25,2019-10-31 15:18:31,5.451s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Careers""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:31,2019-10-31 15:18:36,5.592s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Contact Us""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:36,2019-10-31 15:18:42,5.412s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Contact Us""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:42,2019-10-31 15:18:47,5.702s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Site Map""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:47,2019-10-31 15:18:53,5.397s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Site Map""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:53,2019-10-31 15:18:58,5.164s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Apps""))",Chrome 78.0.3904.70,,,2019-10-31 15:18:58,2019-10-31 15:19:03,5.453s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Apps""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:03,2019-10-31 15:19:08,5.102s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Cookie Settings""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:08,2019-10-31 15:19:14,5.573s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Cookie Settings""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:14,2019-10-31 15:19:19,5.149s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Show Schedule""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:19,2019-10-31 15:19:25,5.551s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Show Schedule""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:25,2019-10-31 15:19:30,5.053s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_ClosedCaptioning""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:30,2019-10-31 15:19:35,5.532s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Closed                        Captioning""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:35,2019-10-31 15:19:40,5.086s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Watch Full Episodes""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:40,2019-10-31 15:19:46,5.499s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Watch Full Episodes""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:46,2019-10-31 15:19:51,5.253s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Advertise""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:51,2019-10-31 15:19:57,5.872s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Advertise""))",Chrome 78.0.3904.70,,,2019-10-31 15:19:57,2019-10-31 15:20:02,5.316s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_AdChoices""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:02,2019-10-31 15:20:08,5.807s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_AdChoices""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:08,2019-10-31 15:20:13,5.176s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_RSS Feeds""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:13,2019-10-31 15:20:19,5.440s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_RSS Feeds""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:19,2019-10-31 15:20:24,5.112s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Peoples Choice""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:24,2019-10-31 15:20:29,5.498s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Peoples Choice""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:29,2019-10-31 15:20:35,5.186s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Peoples Choice FAQ""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:35,2019-10-31 15:20:41,6.323s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Peoples Choice FAQ""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:41,2019-10-31 15:20:48,7.344s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_ClickHere""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:48,2019-10-31 15:20:54,5.360s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Click                Here""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:54,2019-10-31 15:20:59,5.873s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_New Privacy Policy""))",Chrome 78.0.3904.70,,,2019-10-31 15:20:59,2019-10-31 15:21:05,5.370s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_New Privacy Policy""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:05,2019-10-31 15:21:11,6.008s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_Terms of Service""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:11,2019-10-31 15:21:16,5.661s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Terms of Service""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:16,2019-10-31 15:21:22,5.135s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/a_IndependentProgrammingReport""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:22,2019-10-31 15:21:27,5.414s,PASSED
+"click(findTestObject(""Footer_OR/Footer/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_Independent Programming Report""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:27,2019-10-31 15:21:32,5.485s,PASSED
+"rightClick(findTestObject(""Object Repository/FooterObjects/div_New Privacy PolicyTerms of Service                                                                                                        Independent Programming Report""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:32,2019-10-31 15:21:38,5.391s,PASSED
+"click(findTestObject(""Object Repository/FooterObjects/div_New Privacy PolicyTerms of Service                                                                                                        Independent Programming Report""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:38,2019-10-31 15:21:43,5.303s,PASSED
+"click(findTestObject(""Object Repository/FooterObjects/a_footer__eonline-logo""))",Chrome 78.0.3904.70,,,2019-10-31 15:21:43,2019-10-31 15:21:48,5.309s,PASSED
+delay(5),Chrome 78.0.3904.70,,,2019-10-31 15:21:48,2019-10-31 15:21:53,5.005s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-10-31 15:21:53,2019-10-31 15:21:55,1.360s,PASSED

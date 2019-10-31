@@ -1,0 +1,36 @@
+1
+00:00:00,459 --> 00:00:00,478
+1. openBrowser("")
+
+2
+00:00:04,622 --> 00:00:04,625
+5. navigateToUrl("https://www.eonline.com/us")
+
+3
+00:00:18,564 --> 00:00:18,566
+9. maximizeWindow()
+
+4
+00:00:19,167 --> 00:00:19,169
+13. click(findTestObject("Object Repository/Search_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks"))
+
+5
+00:00:19,675 --> 00:00:19,678
+17. click(findTestObject("Page_Entertainmen/div_Venezuela_nav__search-button js-nav__search-button queryly_search_button"))
+
+6
+00:00:20,491 --> 00:00:20,499
+21. setText(findTestObject("Page_Entertainmen/input_Advanced Search_queryly_query"), "Priyanka Chopra")
+
+7
+00:00:21,080 --> 00:00:21,087
+25. click(findTestObject("Page_Entertainmen/div_Showing 387 Results for priyanka chopra"))
+
+8
+00:00:21,712 --> 00:00:21,715
+29. click(findTestObject("Page_Entertainmen/img_Advanced Search_advanced_closebutton"))
+
+9
+00:00:22,249 --> 00:00:22,251
+33. closeBrowser()
+

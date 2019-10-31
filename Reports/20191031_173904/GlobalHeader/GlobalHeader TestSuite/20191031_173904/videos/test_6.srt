@@ -1,0 +1,28 @@
+1
+00:00:00,237 --> 00:00:00,238
+1. openBrowser("")
+
+2
+00:00:06,933 --> 00:00:06,935
+5. navigateToUrl("https://www.eonline.com/us")
+
+3
+00:00:29,025 --> 00:00:29,026
+9. maximizeWindow()
+
+4
+00:00:29,901 --> 00:00:29,903
+13. click(findTestObject("Page_Entertainmen/a_No Thanks"))
+
+5
+00:00:31,359 --> 00:00:31,361
+17. click(findTestObject("Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_WATCH FULL EPISODES"))
+
+6
+00:00:33,349 --> 00:00:33,350
+21. verifyElementPresent(findTestObject("Page_E - NBCcom/div_NBCcom"), 0)
+
+7
+00:00:40,314 --> 00:00:40,316
+25. closeBrowser()
+

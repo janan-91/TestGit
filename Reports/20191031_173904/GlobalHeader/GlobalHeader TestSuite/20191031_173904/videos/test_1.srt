@@ -1,0 +1,20 @@
+1
+00:00:00,823 --> 00:00:00,865
+1. openBrowser("")
+
+2
+00:00:16,846 --> 00:00:16,850
+5. maximizeWindow()
+
+3
+00:00:17,290 --> 00:00:17,292
+9. navigateToUrl("https://www.eonline.com/us")
+
+4
+00:00:50,523 --> 00:00:50,525
+13. click(findTestObject("Page_Entertainmen/a_us"))
+
+5
+00:00:56,054 --> 00:00:56,064
+17. closeBrowser()
+
