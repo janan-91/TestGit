@@ -607,4 +607,42 @@
   <message>End Test Suite : Test Suites/Newsletter</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-01T14:56:33</date>
+  <millis>1572600393367</millis>
+  <sequence>281</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>484</thread>
+  <message>HAR: /var/folders/vf/sxwnr8pd15x4038h0rb9l62m0000gn/T/har6851808680396380319/requests/ModalContext/0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">165ce4d5-a331-44a3-9bc2-2e2b2b3b41d6</property>
+</record>
+<record>
+  <date>2019-11-01T14:57:12</date>
+  <millis>1572600432820</millis>
+  <sequence>289</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>497</thread>
+  <message>HAR: /var/folders/vf/sxwnr8pd15x4038h0rb9l62m0000gn/T/har5177757556935351487/requests/ModalContext/1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">d3ba53c4-e81f-436c-9cbe-4b3b94641d7b</property>
+</record>
+<record>
+  <date>2019-11-01T14:57:50</date>
+  <millis>1572600470608</millis>
+  <sequence>290</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>524</thread>
+  <message>HAR: /var/folders/vf/sxwnr8pd15x4038h0rb9l62m0000gn/T/har8685165063842256160/requests/ModalContext/2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">36d81517-dcb4-4cd5-8640-80f0b596d757</property>
+</record>
