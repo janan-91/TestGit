@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Newsletter,Chrome 78.0.3904.70,,,2019-11-01 13:03:04,2019-11-01 13:03:37,33.233s,INCOMPLETE
+,,,,,,,
+Test Cases/DataDrivenTests/EOL_Global_Header_TC013,Chrome 78.0.3904.70,Newsletter,,2019-11-01 13:03:05,2019-11-01 13:03:37,32.440s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 13:03:10,2019-11-01 13:03:21,10.981s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 13:03:21,2019-11-01 13:03:22,0.414s,PASSED
+"navigateToUrl(""https://www.eonline.com/newsletter"")",Chrome 78.0.3904.70,,,2019-11-01 13:03:22,2019-11-01 13:03:31,9.431s,PASSED
+"click(findTestObject(""Object Repository/Newsletter/Page_Newsletter  E Online/span_news_newsletter-landing__radio""))",Chrome 78.0.3904.70,,,2019-11-01 13:03:31,2019-11-01 13:03:32,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Newsletter/Page_Newsletter  E Online/input_Weekly_newsletter-landing__input""), MailID)",Chrome 78.0.3904.70,,,2019-11-01 13:03:32,2019-11-01 13:03:34,1.717s,PASSED
+"click(findTestObject(""Object Repository/Newsletter/Page_Newsletter  E Online/input_Weekly_glossy__btn newsletter-landing__btn""))",Chrome 78.0.3904.70,,,2019-11-01 13:03:34,2019-11-01 13:03:34,0.293s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Newsletter/Page_Newsletter  E Online/p_Thank you for subscribing""), 0)",Chrome 78.0.3904.70,,,2019-11-01 13:03:34,2019-11-01 13:03:35,0.244s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 13:03:35,2019-11-01 13:03:35,0.483s,PASSED
