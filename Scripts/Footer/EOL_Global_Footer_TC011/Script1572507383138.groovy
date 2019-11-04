@@ -22,9 +22,15 @@ WebUI.navigateToUrl('https://www.eonline.com/us')
 
 WebUI.click(findTestObject('Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_No Thanks'))
 
-WebUI.click(findTestObject('Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/div_Work  Money7 Yoga'))
+WebUI.delay(5)
+
+'Verify whether the footer logo present'
+WebUI.verifyElementPresent(findTestObject('Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Footer_OR/Page_Entertainment/Page_Entertainment/a_Promoted Links_footer__enews-logo footer__enews-logo--us'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

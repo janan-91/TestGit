@@ -20,7 +20,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.eonline.com/us')
 
-WebUI.click(findTestObject('Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks'))
+WebUI.click(findTestObject('GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_LATEST NEWS_nav__logo-link nav__logo-link--default nav__logo-link--default-branding'), 
     0)

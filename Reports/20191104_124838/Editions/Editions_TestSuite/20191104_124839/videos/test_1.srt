@@ -1,0 +1,36 @@
+1
+00:00:01,542 --> 00:00:01,556
+1. openBrowser("")
+
+2
+00:00:29,128 --> 00:00:29,131
+5. maximizeWindow()
+
+3
+00:00:30,228 --> 00:00:30,229
+9. navigateToUrl("https://www.eonline.com/us")
+
+4
+00:01:02,986 --> 00:01:02,990
+13. click(findTestObject("Page_Entertainmen/a_No Thanks"))
+
+5
+00:01:09,719 --> 00:01:09,722
+17. click(findTestObject("Page_Entertainmen/a_us"))
+
+6
+00:01:13,141 --> 00:01:13,143
+21. click(findTestObject("Object Repository/Editions_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_UK"))
+
+7
+00:01:14,037 --> 00:01:14,044
+25. click(findTestObject("Object Repository/Editions_OR/Page_Entertainment News Celebrity News Celebrity Gossip  E News UK/a_uk"))
+
+8
+00:01:14,071 --> 00:01:14,073
+29. click(findTestObject("Object Repository/Editions_OR/Page_Entertainment News Celebrity News Celebrity Gossip  E News UK/a_Venezuela"))
+
+9
+00:01:14,075 --> 00:01:14,094
+33. closeBrowser()
+

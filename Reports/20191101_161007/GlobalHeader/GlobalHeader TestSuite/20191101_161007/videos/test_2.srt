@@ -1,0 +1,24 @@
+1
+00:00:00,223 --> 00:00:00,225
+1. openBrowser("")
+
+2
+00:00:06,477 --> 00:00:06,479
+5. maximizeWindow()
+
+3
+00:00:06,719 --> 00:00:06,722
+9. navigateToUrl("https://www.eonline.com/us")
+
+4
+00:00:11,128 --> 00:00:11,130
+13. click(findTestObject("Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks"))
+
+5
+00:00:11,596 --> 00:00:11,599
+17. verifyElementPresent(findTestObject("Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_LATEST NEWS_nav__logo-link nav__logo-link--default nav__logo-link--default-branding"), 0)
+
+6
+00:00:11,999 --> 00:00:12,011
+21. closeBrowser()
+

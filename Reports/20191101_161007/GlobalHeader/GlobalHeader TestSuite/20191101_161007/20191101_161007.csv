@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GlobalHeader TestSuite,Chrome 78.0.3904.70,,,2019-11-01 16:10:23,2019-11-01 16:14:10,3m - 47.006s,INCOMPLETE
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC004,Chrome 78.0.3904.70,"""Verify EOL International Editions drop-down menu at the top right of the Header 
+(Should display the country code of the contentEdition the user is viewing)""",,2019-11-01 16:10:23,2019-11-01 16:11:07,43.148s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:10:28,2019-11-01 16:10:37,9.694s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:10:37,2019-11-01 16:10:38,0.704s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:10:38,2019-11-01 16:11:01,23.251s,PASSED
+"click(findTestObject(""Page_Entertainmen/a_us""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:01,2019-11-01 16:11:04,2.547s,FAILED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:11:04,2019-11-01 16:11:04,0.534s,PASSED
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC001,Chrome 78.0.3904.70,Verify the E! News Logo appears on the left hand side of the EOL Global Header.,,2019-11-01 16:11:07,2019-11-01 16:11:21,14.518s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:11:07,2019-11-01 16:11:13,6.254s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:11:13,2019-11-01 16:11:14,0.241s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:11:14,2019-11-01 16:11:18,4.407s,PASSED
+"click(findTestObject(""Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:18,2019-11-01 16:11:18,0.468s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_LATEST NEWS_nav__logo-link nav__logo-link--default nav__logo-link--default-branding""), 0)",Chrome 78.0.3904.70,,,2019-11-01 16:11:18,2019-11-01 16:11:19,0.411s,FAILED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:11:19,2019-11-01 16:11:19,0.350s,PASSED
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC005,Chrome 78.0.3904.70,Verify the Section Type Indicators are white (Yellow on Hover).,,2019-11-01 16:11:21,2019-11-01 16:12:17,55.498s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:11:22,2019-11-01 16:11:31,9.010s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:11:31,2019-11-01 16:11:31,0.300s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:11:31,2019-11-01 16:11:32,1.373s,PASSED
+"click(findTestObject(""Page_Entertainmen/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:32,2019-11-01 16:11:33,0.135s,FAILED
+"mouseOver(findTestObject(""GlobalHeader_OR/LatestNews_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:33,2019-11-01 16:11:33,0.194s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:11:33,2019-11-01 16:11:38,5.332s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/WatchFullEpisodes_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:38,2019-11-01 16:11:38,0.189s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:11:38,2019-11-01 16:11:43,5.020s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/Royals_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:43,2019-11-01 16:11:43,0.173s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:11:43,2019-11-01 16:11:49,5.036s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/Kardashians_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:49,2019-11-01 16:11:49,0.213s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:11:49,2019-11-01 16:11:54,5.023s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/photos_or""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:54,2019-11-01 16:11:54,0.135s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:11:54,2019-11-01 16:11:59,5.006s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/TV_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:11:59,2019-11-01 16:11:59,0.180s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:11:59,2019-11-01 16:12:04,5.027s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/Hallowen_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:12:04,2019-11-01 16:12:04,0.136s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:12:04,2019-11-01 16:12:09,5.013s,PASSED
+"mouseOver(findTestObject(""GlobalHeader_OR/PCA_OR""))",Chrome 78.0.3904.70,,,2019-11-01 16:12:09,2019-11-01 16:12:09,0.126s,FAILED
+delay(5),Chrome 78.0.3904.70,,,2019-11-01 16:12:09,2019-11-01 16:12:14,5.012s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:12:14,2019-11-01 16:12:15,0.373s,PASSED
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC002,Chrome 78.0.3904.70,"Verify the E! News Logo is actionable and reloads the Front Door while 
+maintaining edition integrity.",,2019-11-01 16:12:17,2019-11-01 16:12:36,18.565s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:12:17,2019-11-01 16:12:30,12.396s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:12:30,2019-11-01 16:12:30,0.321s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:12:30,2019-11-01 16:12:33,2.651s,PASSED
+"click(findTestObject(""Page_Entertainmen/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-11-01 16:12:33,2019-11-01 16:12:33,0.198s,FAILED
+"click(findTestObject(""Page_Entertainmen/a_LATEST NEWS_nav__logo-link""))",Chrome 78.0.3904.70,,,2019-11-01 16:12:33,2019-11-01 16:12:33,0.177s,FAILED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:12:33,2019-11-01 16:12:33,0.138s,PASSED
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC006,Chrome 78.0.3904.70,Click and verify latest news menu and the navigated page,,2019-11-01 16:12:36,2019-11-01 16:13:03,27.302s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:12:36,2019-11-01 16:12:40,3.559s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:12:40,2019-11-01 16:12:40,0.253s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:12:40,2019-11-01 16:12:55,15.660s,PASSED
+"click(findTestObject(""Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_LATEST NEWS""))",Chrome 78.0.3904.70,,,2019-11-01 16:12:55,2019-11-01 16:12:56,0.767s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/GlobalHeader_OR/Page_A Full List of Top Stories News  E News/h1_Top Stories""), 2)",Chrome 78.0.3904.70,,,2019-11-01 16:12:56,2019-11-01 16:13:00,3.815s,FAILED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:13:00,2019-11-01 16:13:01,0.733s,PASSED
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC007,Chrome 78.0.3904.70,Click and verify latest news menu and the navigated page,,2019-11-01 16:13:03,2019-11-01 16:13:41,37.882s,FAILED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:13:04,2019-11-01 16:13:13,9.332s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:13:13,2019-11-01 16:13:36,22.899s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:13:36,2019-11-01 16:13:36,0.510s,PASSED
+"click(findTestObject(""Page_Entertainmen/a_No Thanks""))",Chrome 78.0.3904.70,,,2019-11-01 16:13:36,2019-11-01 16:13:37,0.367s,PASSED
+"click(findTestObject(""Object Repository/GlobalHeader_OR/Page_Entertainment News Celebrity Gossip Celebrity News  E News/a_WATCH FULL EPISODES""))",Chrome 78.0.3904.70,,,2019-11-01 16:13:37,2019-11-01 16:13:37,0.471s,PASSED
+"verifyElementPresent(findTestObject(""Page_E - NBCcom/div_NBCcom""), 0)",Chrome 78.0.3904.70,,,2019-11-01 16:13:37,2019-11-01 16:13:38,0.944s,FAILED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:13:38,2019-11-01 16:13:39,0.639s,PASSED
+,,,,,,,
+Test Cases/Global Header/EOL_Global_Header_TC003,Chrome 78.0.3904.70,"""Verify EOL International Editions drop-down menu at the top right of the Header 
+(Should display the country code of the contentEdition the user is viewing)""",,2019-11-01 16:13:41,2019-11-01 16:14:10,28.783s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.70,,,2019-11-01 16:13:42,2019-11-01 16:13:48,6.730s,PASSED
+maximizeWindow(),Chrome 78.0.3904.70,,,2019-11-01 16:13:48,2019-11-01 16:13:48,0.243s,PASSED
+"navigateToUrl(""https://www.eonline.com/us"")",Chrome 78.0.3904.70,,,2019-11-01 16:13:48,2019-11-01 16:14:07,18.356s,PASSED
+"verifyElementPresent(findTestObject(""Page_Entertainmen/a_us""), 0)",Chrome 78.0.3904.70,,,2019-11-01 16:14:07,2019-11-01 16:14:07,0.399s,PASSED
+closeBrowser(),Chrome 78.0.3904.70,,,2019-11-01 16:14:07,2019-11-01 16:14:08,0.566s,PASSED
